@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className="mx-32 my-12">
         <nav>
           <h1>logo</h1>
           <ul>

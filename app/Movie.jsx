@@ -8,7 +8,6 @@ export default function Movie({
   release_date,
 }) {
   const imagePath = "https://image.tmdb.org/t/p/original";
-  console.log(poster_path);
   return (
     <div>
       <h1>{title}</h1>
